@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.manu-items{
+width: 100vw;
+height: 100vh;
+
+}
+.Item-inside{
+    width: 40rem;
+   min-height: 15rem;
+    box-shadow: 10px 10px 8px #888888;
+    border-radius: 1rem;
+    
+
+   
+}
+.Item-inside img{
+    height: 15rem;
+    box-shadow: 2px 2px 8px #888888;
+    border-radius: 1rem;
+    transition:  .2s linear;
+
+}
+.Item-inside img:hover{
+    transform: scale(1.1);
+}
+
+.Item-inside h2{
+    font-size: 2rem;
+    color: rgba(0, 170, 255, 0.837);
+}
